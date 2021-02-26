@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "target": "es3",
-        "module": "ES2015",
         "declaration": true,
         "declarationDir": "./types",
         "sourceMap": true,
