@@ -1,7 +1,6 @@
 module.exports = {
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@totalpave/recommendedTS",
@@ -14,15 +13,9 @@ module.exports = {
         "tsconfigRootDir": __dirname
     },
     "plugins": [
-        "react",
         "@typescript-eslint",
         "@totalpave"
     ],
-    "settings": {
-        "react": {
-            "version": "detect"
-        }
-    },
     "env": {
         "node": true,
         "jest": true
