@@ -1,1 +1,1 @@
-@nbsolutions/hex - v1.0.0 / [Exports](modules.md)
+@nbsolutions/hex - v1.0.1 / [Exports](modules.md)
