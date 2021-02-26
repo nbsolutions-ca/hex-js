@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es3",
+        "module": "ES2015",
+        "declaration": true,
+        "declarationDir": "./dist",
+        "sourceMap": true,
+        "outDir": "./lib",
+        "importHelpers": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "moduleResolution": "node",
+        "baseUrl": "./src/",
+        "plugins": [],
+        "incremental": true
+    },
+    "include": [
+        "src/*.ts"
+    ],
+    "exclude": [
+        "**/*.spec.ts",
+        "*/.spec.ts",
+        "tests",
+        "lib",
+        "dist",
+        "spec",
+        "node_modules",
+        "jest.d.ts"
+    ]
+}
