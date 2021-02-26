@@ -3,7 +3,7 @@
         "target": "es3",
         "module": "ES2015",
         "declaration": true,
-        "declarationDir": "./dist",
+        "declarationDir": "./types",
         "sourceMap": true,
         "outDir": "./lib",
         "importHelpers": true,

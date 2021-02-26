@@ -2,7 +2,8 @@
   "name": "@nbsolutions/hex",
   "version": "1.0.0",
   "description": "A Hex parsing tool",
-  "main": "eslintrc.js",
+  "main": "lib/api.js",
+  "types": "types/api.d.ts",
   "dependencies": {},
   "devDependencies": {
     "@totalpave/eslint-plugin": "4.0.0",

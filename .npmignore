@@ -21,4 +21,4 @@ jest.config.ts
 *.map
 docs
 coverage
-
+*.tsbuildinfo
