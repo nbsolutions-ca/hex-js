@@ -19,6 +19,7 @@
   },
   "scripts": {
     "lint": "eslint --ext .ts,.tsx '?(src|spec)/**/*.?(ts|tsx)' --cache",
+    "docs": "typedoc --excludePrivate --includeVersion -readme ./README.md --out ./docs ./src",
     "test": "jest"
   },
   "repository": {
