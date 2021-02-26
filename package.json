@@ -23,6 +23,7 @@
     "docs": "typedoc --excludePrivate --includeVersion -readme ./README.md --out ./docs ./src",
     "build": "npm run lint && tsc",
     "build:release": "tsc",
+    "changelog": "auto-changelog --output CHANGELOG.md -p --release-summary --ignore-commit-pattern chore",
     "test": "npm run lint && jest",
     "preversion": "npm test",
     "version": "NODE_ENV=production npm run-script build:release && npm run-script docs && npm run changelog && git add CHANGELOG.md docs && git commit -m 'chore: changelog'",
