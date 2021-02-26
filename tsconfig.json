@@ -23,7 +23,7 @@
         "*/.spec.ts",
         "tests",
         "lib",
-        "dist",
+        "types",
         "spec",
         "node_modules",
         "jest.d.ts"
