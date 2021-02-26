@@ -1,4 +1,4 @@
-[@nbsolutions/hex - v1.0.1](../README.md) / [Exports](../modules.md) / [Hex](../modules/hex.md) / Hex
+[@nbsolutions/hex - v1.0.2](../README.md) / [Exports](../modules.md) / [Hex](../modules/hex.md) / Hex
 
 # Class: Hex
 
@@ -35,7 +35,7 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: [Hex.ts:65](https://github.com/nbsolutions-ca/hex/blob/6a3a641/src/Hex.ts#L65)
+Defined in: [Hex.ts:65](https://github.com/nbsolutions-ca/hex/blob/c1af625/src/Hex.ts#L65)
 
 ___
 
@@ -59,7 +59,7 @@ Name | Type |
 
 **Returns:** *number*
 
-Defined in: [Hex.ts:49](https://github.com/nbsolutions-ca/hex/blob/6a3a641/src/Hex.ts#L49)
+Defined in: [Hex.ts:49](https://github.com/nbsolutions-ca/hex/blob/c1af625/src/Hex.ts#L49)
 
 ___
 
@@ -83,7 +83,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [Hex.ts:92](https://github.com/nbsolutions-ca/hex/blob/6a3a641/src/Hex.ts#L92)
+Defined in: [Hex.ts:92](https://github.com/nbsolutions-ca/hex/blob/c1af625/src/Hex.ts#L92)
 
 ___
 
@@ -107,7 +107,7 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: [Hex.ts:118](https://github.com/nbsolutions-ca/hex/blob/6a3a641/src/Hex.ts#L118)
+Defined in: [Hex.ts:118](https://github.com/nbsolutions-ca/hex/blob/c1af625/src/Hex.ts#L118)
 
 ___
 
@@ -132,4 +132,4 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: [Hex.ts:19](https://github.com/nbsolutions-ca/hex/blob/6a3a641/src/Hex.ts#L19)
+Defined in: [Hex.ts:19](https://github.com/nbsolutions-ca/hex/blob/c1af625/src/Hex.ts#L19)

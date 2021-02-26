@@ -1,6 +1,6 @@
-[@nbsolutions/hex - v1.0.1](README.md) / Exports
+[@nbsolutions/hex - v1.0.2](README.md) / Exports
 
-# @nbsolutions/hex - v1.0.1
+# @nbsolutions/hex - v1.0.2
 
 ## Table of contents
 
