@@ -1,4 +1,4 @@
-[@nbsolutions/hex - v1.0.2](../README.md) / [Exports](../modules.md) / Hex
+[@nbsolutions/hex - v1.0.3](../README.md) / [Exports](../modules.md) / Hex
 
 # Module: Hex
 
