@@ -17,7 +17,7 @@ export class Hex {
      * @param [bits] Optional. Will force 0 leading digits.
      */
     public static toString(hex: number, bits?: number): string {
-        let output: Array<string> = [];
+        let output: string[] = [];
 
         if (bits) {
             for (let i: number = bits; i > 0; i--) {
@@ -48,7 +48,7 @@ export class Hex {
      */
     public static fromString(hex: string): number {
         hex = Hex.normalize(hex);
-        Hex._assertRange(hex);
+        Hex.$assertRange(hex);
         return parseInt(hex, 16);
     }
 
@@ -64,10 +64,10 @@ export class Hex {
      */
     public static expand(hex: string): string {
         hex = Hex.normalize(hex);
-        Hex._assertRange(hex);
+        Hex.$assertRange(hex);
 
-        let parts: Array<string> = hex.split('');
-        let output: Array<string> = [];
+        let parts: string[] = hex.split('');
+        let output: string[] = [];
 
         for (let i: number = 0; i < parts.length; i++) {
             let p: string = parts[i];
@@ -91,7 +91,7 @@ export class Hex {
      */
     public static isHex(hex: string): boolean {
         try {
-            Hex._assertRange(Hex.normalize(hex));
+            Hex.$assertRange(Hex.normalize(hex));
             return true;
         }
         catch (ex) {
@@ -119,7 +119,7 @@ export class Hex {
         return hex.replace(/^0x/, '').replace(/^#/, '');
     }
 
-    private static _assertRange(hex: string): void {
+    private static $assertRange(hex: string): void {
         if (!/^([A-Fa-f0-9])+$/.test(hex)) {
             throw new RangeError('Unexpected value in hex string. Hex strings should only contain characters: ABCDEF0123456789');
         }
