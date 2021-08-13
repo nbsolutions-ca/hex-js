@@ -1,4 +1,4 @@
-[@nbsolutions/hex - v1.0.3](../README.md) / [Exports](../modules.md) / api
+[@nbsolutions/hex - v1.0.4](../README.md) / [Exports](../modules.md) / api
 
 # Module: api
 
@@ -13,10 +13,10 @@
 
 ### Hex
 
-Re-exports: [Hex](../classes/hex.hex-1.md)
+Re-exports: [Hex](../classes/Hex.Hex-1.md)
 
 ___
 
 ### default
 
-Renames and exports: [Hex](../classes/hex.hex-1.md)
+Renames and exports: [Hex](../classes/Hex.Hex-1.md)
