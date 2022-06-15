@@ -1,4 +1,4 @@
-[@nbsolutions/hex - v1.0.4](../README.md) / [Exports](../modules.md) / Hex
+[@nbsolutions/hex - v1.0.5](../README.md) / [Exports](../modules.md) / Hex
 
 # Class: Hex
 
@@ -37,7 +37,7 @@ Hex.expand("#F0F"); // "FF00FF"
 
 #### Defined in
 
-[Hex.ts:65](https://github.com/nbsolutions-ca/hex-js/blob/4387956/src/Hex.ts#L65)
+[Hex.ts:65](https://github.com/nbsolutions-ca/hex-js/blob/1630299/src/Hex.ts#L65)
 
 ___
 
@@ -65,7 +65,7 @@ Hex.fromString("#FF"); // 255
 
 #### Defined in
 
-[Hex.ts:49](https://github.com/nbsolutions-ca/hex-js/blob/4387956/src/Hex.ts#L49)
+[Hex.ts:49](https://github.com/nbsolutions-ca/hex-js/blob/1630299/src/Hex.ts#L49)
 
 ___
 
@@ -93,7 +93,7 @@ Hex.isHex("Z"); // false
 
 #### Defined in
 
-[Hex.ts:92](https://github.com/nbsolutions-ca/hex-js/blob/4387956/src/Hex.ts#L92)
+[Hex.ts:92](https://github.com/nbsolutions-ca/hex-js/blob/1630299/src/Hex.ts#L92)
 
 ___
 
@@ -121,7 +121,7 @@ Hex.normalize("#FF");  // "FF"
 
 #### Defined in
 
-[Hex.ts:118](https://github.com/nbsolutions-ca/hex-js/blob/4387956/src/Hex.ts#L118)
+[Hex.ts:118](https://github.com/nbsolutions-ca/hex-js/blob/1630299/src/Hex.ts#L118)
 
 ___
 
@@ -150,4 +150,4 @@ Hex.toString(0x00FF, 4); // "00FF"
 
 #### Defined in
 
-[Hex.ts:19](https://github.com/nbsolutions-ca/hex-js/blob/4387956/src/Hex.ts#L19)
+[Hex.ts:19](https://github.com/nbsolutions-ca/hex-js/blob/1630299/src/Hex.ts#L19)
