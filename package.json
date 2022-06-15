@@ -1,6 +1,6 @@
 {
   "name": "@nbsolutions/hex",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Hex parsing tool",
   "main": "lib/api.js",
   "types": "types/api.d.ts",
