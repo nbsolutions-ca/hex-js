@@ -4,7 +4,16 @@
 
 ## Table of contents
 
-### Modules
+### References
 
-- [Hex](modules/Hex.md)
-- [api](modules/api.md)
+- [default](modules.md#default)
+
+### Classes
+
+- [Hex](classes/Hex.md)
+
+## References
+
+### default
+
+Renames and re-exports [Hex](classes/Hex.md)
